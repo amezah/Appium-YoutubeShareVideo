@@ -43,7 +43,7 @@ public class ShareVideoTest {
 		String activityname = "com.google.android.apps.youtube.app.WatchWhileActivity"; //Nombre de la actividad (o vista) en donde empezara la automatizacion
 		
 		capabilities.setCapability("deviceName", "Huawei P8"); //No es obligatorio que este nombre coincida
-		capabilities.setCapability("udid", "BHG7N16C26001815"); //Serial del dispositivo, se obtiene activando la depuración USB y con el comando adb devices
+		capabilities.setCapability("udid", ""); //Serial del dispositivo, se obtiene activando la depuración USB y con el comando adb devices
 		capabilities.setCapability("platformVersion", "7.0"); //No es obligatorio que la version coincida
 		capabilities.setCapability("platformName", "Android"); //Nombre del sistema operativo
 		capabilities.setCapability("appPackage", packagename);
