@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89805" started-at="2018-08-20T23:22:55Z" finished-at="2018-08-20T23:24:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89805" started-at="2018-08-20T23:22:55Z" finished-at="2018-08-20T23:24:25Z">
+      <class name="com.accenture.ShareVideoTest">
+        <test-method status="PASS" signature="setUpAppium()[pri:0, instance:com.accenture.ShareVideoTest@63753b6d]" name="setUpAppium" is-config="true" duration-ms="47229" started-at="2018-08-20T23:22:55Z" finished-at="2018-08-20T23:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAppium -->
+        <test-method status="PASS" signature="shareTest()[pri:0, instance:com.accenture.ShareVideoTest@63753b6d]" name="shareTest" duration-ms="42494" started-at="2018-08-20T23:23:42Z" finished-at="2018-08-20T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareTest -->
+        <test-method status="PASS" signature="CleanUpAppium()[pri:0, instance:com.accenture.ShareVideoTest@63753b6d]" name="CleanUpAppium" is-config="true" duration-ms="1" started-at="2018-08-20T23:24:25Z" finished-at="2018-08-20T23:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUpAppium -->
+      </class> <!-- com.accenture.ShareVideoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
